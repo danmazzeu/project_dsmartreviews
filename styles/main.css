@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main > section > h2 {
+    font-size: 20px;
+    font-weight: 380;
+    text-transform: uppercase;
+}
+
+main > section > p {
+    text-wrap: wrap;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px dashed #cccccc;
+    background-color: #f9f9f9;
+}
+
+main > section > p > b {
+    font-weight: bold;
+    margin-right: 5px;
+}
